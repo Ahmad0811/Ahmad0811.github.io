@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Ahmad Aras Abdulla</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ca86438185.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img class="logo" src="./img/icon.png">Ahmad Aras Abdulla
+            </h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="./schedule.html">Schedule</a>
+                </li>
+                <li>
+                    <a href="#">Layout Design <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="./float-side-nav.html">Float Layout with Side nav</a>
+                        </li>
+                        <li>
+                            <a href="./flex-side-nav.html">FlexBox Layout with Side nav</a>
+                        </li>
+                        <li>
+                            <a href="./blog-grid.html">Blog Grid View</a>
+                        </li>
+                    </ul>
+                </li>
+                </li>
+                <li>
+                    <a class="active" href="./signup.html">Signup</a>
+                </li>
+                <li>
+                    <a href="./signin.html">Signin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <form action="">
+                <h1>
+                    Signup Form
+                </h1>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" placeholder="Full Name">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="domain@example.com">
+                </div>
+
+                <div class="input-group">
+                    <label for="telephone">Telephone</label>
+                    <input type="tel" name="telephone" placeholder="00964 000 000 00 00">
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="password">
+                </div>
+
+                <div class="input-group">
+                    <label for="date">Date of Birth</label>
+                    <input type="date" name="date" placeholder="dd/mm/yyyy">
+                </div>
+
+                <div class="input-group">
+                    <label for="color">Profile Color</label>
+                    <input type="color" name="color" value="#ff6699">
+                </div>
+
+                <div class="inpout-group">
+
+                    <fieldset>
+                        <legend> Marital Status </legend>
+
+                        <div>
+                            <input type="radio" id="single" name="Status" value="single">
+                            <label for="single">single</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="married" name="Status" value="married">
+                            <label for="married">Married</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" id="private" name="Status" value="private">
+                            <label for="private">Private</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="input-group">
+                    <label for="children"> No. of children</label>
+
+                    <select name="children">
+                        <option> none</option>
+                        <option> 1</option>
+                        <option> 2</option>
+                        <option> 3</option>
+                        <option> 4</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+
+                    <label for="dgree"> choose your degrees</label>
+
+                    <select name="degree" class="dgree" multiple>
+                        <option value="D">Diploma</option>
+                        <option value="BSc">Bachelor of Science (BSc)</option>
+                        <option value="HD">High Diploma</option>
+                        <option value="MSc">Master of Science (MSc)</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="about">About Yourself</label>
+                    <textarea name="about" cols="30" rows="4" placeholder="About Yourself"></textarea>
+                </div>
+
+                <div class="input-group">
+
+                    <label for="CV">Upload your CV</label>
+                    <input type="file" name="CV">
+                </div>
+
+                <div class="input-group">
+                    <fieldset>
+                        <legend> Gender</legend>
+                        <div>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="input-group">
+                    <fieldset>
+                        <legend>Agrrements</legend>
+
+                        <p>
+                            Please read the terms and agrrements
+                        </p>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" name="agrrements"> I have read all the terms
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="agrrements"> Yes, i'm agree
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="sign up" class="submit-btn">
+                    <input type="reset" value="Reset" class="reset-btn">
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <h4>SiteMap</h4>
+                <ul>
+                    <li>
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="./signin.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Terms and Quick Links</h4>
+                <ul>
+                    <li>
+                        <a href="">Term of usage</a>
+                    </li>
+                    <li>
+                        <a href="">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Address and Contact</h4>
+                <address class="contact">City, Goverment, Country</address>
+                <phone class="contact">Phone: 0964 000 0000 0000</phone>
+                <br>
+                <email class="contact">Email: example@domain.com</email>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
